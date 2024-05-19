@@ -1,6 +1,10 @@
-import pygame
-import sys
+import os
 import time
+import sys
+try:
+    import pygame
+except ModuleNotFoundError:
+    os.system("pip install pygame")    
 
 pygame.init()
 clock = pygame.time.Clock()
