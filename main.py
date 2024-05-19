@@ -102,14 +102,10 @@ class Buttons:
 
         
         #The font and setting it up
-        self.font = pygame.font.Font(r"C:\Users\biasb\Downloads\Comfortaa\Comfortaa-VariableFont_wght.ttf", 32)
-        self.font_menu = pygame.font.Font(r"C:\Users\biasb\Downloads\Comfortaa\Comfortaa-VariableFont_wght.ttf", 50)
-        self.font_menu_bot = pygame.font.Font(r"C:\Users\biasb\Downloads\Comfortaa\Comfortaa-VariableFont_wght.ttf", 45)
-        self.font_menu_win = pygame.font.Font(r"C:\Users\biasb\Downloads\Comfortaa\Comfortaa-VariableFont_wght.ttf", 80)
-        self.font.set_bold(True)
-        self.font_menu.set_bold(True)
-        self.font_menu_bot.set_bold(True)
-        self.font_menu_win.set_bold(True)
+        self.font = pygame.font.Font(r"RistinollaV2\Comfortaa-Bold.ttf", 32)
+        self.font_menu = pygame.font.Font(r"RistinollaV2\Comfortaa-Bold.ttf", 50)
+        self.font_menu_bot = pygame.font.Font(r"RistinollaV2\Comfortaa-Bold.ttf", 45)
+        self.font_menu_win = pygame.font.Font(r"RistinollaV2\Comfortaa-Bold.ttf", 80)
         self.text_restart = self.font.render("Restart", True, (0, 0, 0))
         self.text_bot = self.font.render("Menu", True, (0, 0, 0))
         self.font_1v1 = self.font_menu.render("Play 1V1", True, (0, 0, 0))
